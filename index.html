@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Imtihon</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__desktop">
+            <div class="container">
+                <ul class="header__list header__desktop-list">
+                    <li class="header__item header__desktop-item"><a class="header__link" href="single.html">Каталог</a></li>
+                    <li class="header__item header__desktop-item"><a class="header__link" href="single.html">Индивидуальная мебель</a></li>
+                    <li class="header__item header__desktop-item"><a class="header__link" href="single.html">Контакты</a></li>
+                    <li class="header__item-logo"><a class="header__logo-link" href="index.html"><img class="header__logo-img" src="./images/logo-header.svg" width="216" height="66" alt="ekmi kompaniyasining logosi"></a></li>
+                    <li class="header__item header__desktop-item"><a class="header__link" href="single.html">О компании</a></li>
+                    <li class="header__item-tel"><a class="header__tel" href="tel:+380996384537">+38 (099)-638-45-37</a></li>
+                    <li class="header__item-select">
+                        <select class="header__select">
+                            <option class="header__option" value="ru">RU</option>
+                            <option class="header__option" value="eng">EN</option>
+                            <option class="header__option" value="uz">UZ</option>
+                        </select>
+                    </li>
+                </ul> 
+                <button class="header__close-btn"><img class="header__close-img" src="./images/close.png" width="16" height="15" alt="menuni yopish uchun kress belgisi"></button>
+            </div><!-- end of container-->
+            <div class="container">
+                <ul class="header__navs">
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">Диваны</h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">Стулья </h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link header__navs-link-active" href="#">
+                            <h4 class="header__heading">Кресла </h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">Кровати</h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">Матрацы</h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">пуфы</h4>
+                        </a>
+                    </li>
+                    <li class="header__nav">
+                        <a class="header__navs-link" href="#">
+                            <h4 class="header__heading">Эксклюзивная мебель </h4>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+                <ul class="header__categoria header__desktop-categoria">
+                    <li class="categoria__item">
+                        <select class="header__select header__desktop-select">
+                            <option value="2d-3d">Все 2D-3D модели</option>
+                            <option value="martin">Martin</option>
+                            <option value="alba">Alba</option>
+                            <option value="toscana">Toscana</option>
+                            <option value="leanordo">Leanordo</option>
+                            <option value="boorbon">Boorbon</option>
+                        </select>
+                    </li>
+                    <li class="categoria__item">  
+                        <div class="header__buttons">
+                            <button class="header__button1"></button>
+                            <button class="header__button2"></button>
+                        </div>
+                        <form action="https://echo.htmlacademy.ru">
+                            <div class="header__form-wrapper">
+                                <label for="search"></label>
+                                <input name="search" id="search" class="header__input" placeholder="Поиск" type="text">
+                                <button class="header__search"></button>
+                            </div>
+                        </form>
+                    </li>
+                </ul> 
+            </div><!-- end of container-->
+        </div><!-- end of header__desktop-->
+        
+        <div class="header__mobile">
+            <div class="container header__mobile-container ">
+                <a class="header__logo-link" href="index.html"><img class="header__logo-img" src="./images/logo-header.svg" width="111" height="34" alt="ekmi kompaniyasining logosi"></a>
+                <ul class="header__list header__mobile-list">
+                    <li class="header__item">
+                        <select class="header__select">
+                            <option class="header__option" value="ru">RU</option>
+                            <option class="header__option" value="eng">EN</option>
+                            <option class="header__option" value="uz">UZ</option>
+                        </select>
+                    </li>
+                    <li class="header__item"><a class="header__tel" href="tel:+380996384537"><img class="header__mobile-img" src="./images/phone.svg" width="21" height="21" alt="telefon trupkasining rasmi"></a></li>
+                    <li class="header__item header__menu"><a class="header__link" href="#"><img src="./images/menu.svg" width="25" height="23" alt="mobile qurilmalar menuni ko`rish uchun bosilsin"></a></li>
+                </ul> 
+            </div><!-- end of header__mobile-container-->
+            <div class="container">
+                <ul class="header__categoria header__mobile-categoria">
+                    <li class="categoria__item">
+                        <select class="header__select">
+                            <option value="2d-3d">Все 2D-3D модели</option>
+                            <option value="martin">Martin</option>
+                            <option value="alba">Alba</option>
+                            <option value="toscana">Toscana</option>
+                            <option value="leanordo">Leanordo</option>
+                            <option value="boorbon">Boorbon</option>
+                        </select>
+                    </li>
+                    <li class="categoria__item">  
+                        <button class="header__button3"></button> 
+                    </li>
+                </ul> 
+                <form class="header__mobile-form" action="https://echo.htmlacademy.ru">
+                    <div class="header__form-wrapper header__mobile-wrapper">
+                        <label for="poisk"></label>
+                        <input name="poisk" id="poisk" class="header__input" placeholder="Поиск" type="text">
+                        <button class="header__search"></button>
+                    </div>
+                </form>
+            </div><!-- end of container-->
+        </div><!-- end of header__mobile-->
+    </header><!-- end of header-->
+    
+    <section class="catalog">
+        <div class="container">
+            <ul class="catalog__list">
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Martin</h3>
+                        <p class="catalog__text">
+                            Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/martin.png" width="267" height="176" alt="">
+                </li><!-- end of martin-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Alba</h3>
+                        <p class="catalog__text">
+                            Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/alba.png" width="270" height="245" alt="">
+                </li><!-- end of alba-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Toscana</h3>
+                        <p class="catalog__text">
+                            Кресло «Тоскана» компании «EKMI-мебель». Располагает для удобного времяпровождения.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/toskana.png" width="270" height="227" alt="">
+                </li><!-- end of toskana-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Leonardo</h3>
+                        <p class="catalog__text">
+                            Мягкое кресло «Альба» компании «Экми -мебель»- это украшение и удобное дополнение Вашего интерьера. Кресло «Альба» оптимальная личная зона для отдыха.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/leanardo.png" width="267" height="176" alt="">
+                </li><!-- end of leanardo-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Boorbon</h3>
+                        <p class="catalog__text">
+                            Кресло «Тоскана» компании «EKMI-мебель». Располагает для удобного времяпровождения.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/boorbon.png" width="270" height="206" alt="">
+                </li><!-- end of boorbon-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Emilio</h3>
+                        <p class="catalog__text">
+                            Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/emilio.png" width="260" height="170" alt="">
+                </li><!-- end of emilio-->
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Nensi</h3>
+                        <p class="catalog__text">
+                            Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/mensi.png" width="252" height="166" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Tatami</h3>
+                        <p class="catalog__text">
+                            Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/tatami.png" width="260" height="170" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Regina</h3>
+                        <p class="catalog__text">
+                            Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/regina.png" width="267" height="176" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Malta</h3>
+                        <p class="catalog__text">
+                            Двусторонний матрац МАЛЬТА без пружин – удачное сочетание жестокости и комфортности. Самый низкий матрац в нашей линейке.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/malta.png" width="270" height="209" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Versal</h3>
+                        <p class="catalog__text">
+                            Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/versal.png" width="267" height="196" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Exclusive 1</h3>
+                        <p class="catalog__text">
+                            Мягкие формы кровати «Ненси» создадут уют и комфорт в Вашей спальне.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/exclusive1.png" width="253" height="166" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Floret</h3>
+                        <p class="catalog__text">
+                            Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/floret.png" width="270" height="184" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Exclusive bed 2</h3>
+                        <p class="catalog__text">
+                            Эксклюзивная мебель
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/exclusivebed.png" width="256" height="168" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Arni</h3>
+                        <p class="catalog__text">
+                            Легкий, воздушный, невесомый… Диван «Арни», непроизвольно вызывающий ассоциацию с облаком,  буквально излучает уют. Объёмные  модули легко комбинируются между собой, создавая любимое место отдыха для всей семьи. Композиция может быть дополнена креслами и пуфами.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/arni.png" width="257" height="170" alt="">
+                </li>
+                <li class="catalog__item">
+                    <div class="catalog__wrapper">
+                        <h3 class="catalog__heading">Taiti</h3>
+                        <p class="catalog__text">
+                            Эксклюзивный матрац с ортопедическим эффектом без пружин. Самая жесткая, но при этом очень комфортная модель во всей линейке. Идеальный вариант для крупных людей.
+                        </p>
+                    </div>
+                    <img class="catalog__img" src="./images/taiti.png" width="267" height="194" alt="">
+                </li>
+            </ul>
+            
+            <div class="buttons">
+                <button class="catalog__button1"></button>
+                <button class="button ">1</button>
+                <button class="button catalog__button-active">2</button>
+                <button class="button ">3</button>
+                <button class="catalog__button5"></button>
+            </div>
+            
+            <a class="catalog__link" href="#">смотреть все</a>
+        </div><!-- end of container-->
+    </section><!-- end of catalog-->
+    
+    <section class="registration">
+        <div class="container registration__container">
+            <img class="registration__img" src="./images/form-img.png" width="670" height="478" alt="">
+            
+            <form class="registration__form" action="https://echo.htmlacademy.ru" method="post">
+                <h4 class="registration__small-heading">Заполните форму</h4>
+                <h3 class="registration__heading">остались вопросы?</h3>
+                <label class="registration__label" for="name">
+                    <input class="registration__input" name="ism" id="name" type="text" placeholder="Ваше имя*">
+                </label>
+                <div class="registration__line"></div>
+                
+                <label class="registration__label" for="phoneNumber">
+                    <input class="registration__input" name="tel-raqam" id="phoneNumber" type="tel" placeholder="Ваш номер телефона*">
+                </label>
+                <div class="registration__line"></div>
+                
+                <label class="registration__label" for="country">
+                    <input class="registration__input" name="davlat" id="country" type="text" placeholder="Страна">
+                </label>
+                <div class="registration__line"></div>
+                
+                <label class="registration__label" for="coment">
+                    <input class="registration__input" name="izoh" id="coment" type="text" placeholder="Комментарий">
+                </label>
+                <div class="registration__line"></div>
+                
+                <div class="registration__box">
+                    <label class="registration__label" for="check">
+                        <input class="registration__input" name="tanlov" id="check" type="checkbox">
+                    </label>
+                    <p class="registration__text">
+                        Подтверждая заказ, я принимаю условия пользовательского соглашения
+                    </p>
+                </div>
+                
+                <button class="registration__button">запросить звонок</button>
+            </form>
+        </div><!-- end of container-->
+    </section><!-- end of registration-->
+    
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__list">
+                <a class="footer__logo-link" href="index.html"><img class="footer__logo-img" src="./images/logo-footer.svg" width="170" height="56" alt="ekmi kompaniyasining logosi"></a>
+                
+                <div class="footer__box">
+                    <div class="footer__links-box">
+                        <a class="footer__link" href="#">Каталог</a>
+                        <a class="footer__link" href="#">о компании</a>
+                        <a class="footer__link" href="#">Индивидуальная мебель</a>
+                        <a class="footer__link" href="#">Партнерам дизайнерам</a>
+                    </div>
+                    <div class="footer__links-box">
+                        <a class="footer__link" href="#">2D, 3D модели</a>
+                        <a class="footer__link" href="#">Шоу-румы</a>
+                        <a class="footer__link" href="#">Дилерам</a>
+                        <a class="footer__link" href="#">Контакты</a>
+                        <a class="footer__link" href="#">Конфигуратор</a>
+                    </div>
+                </div><!-- end of footer__box-->
+                <div class="footer__wrapper">
+                    <div class="footer__socials-box">
+                        <div class="footer__socials">
+                            <a class="footer__socials-link" href="#"><img class="footer__socials-img" src="./images/instagram.svg" width="28" height="28" alt="ijtimoiy tarmoqlar orqali kuzatib borish uchun facebook ilovasi"></a>
+                            <a class="footer__socials-link" href="#"><img class="footer__socials-img" src="./images/facebook.svg" width="28" height="28" alt="ijtimoiy tarmoqlar orqali kuzatib borish uchun facebook ilovasi"></a>
+                        </div><!-- end of footer__socials-->
+                        <a class="footer__tel" href="tel:+380996384537">+38 (099)-638-45-37</a>
+                    </div><!-- end of footer__socials-box-->
+                    <button class="footer__button">Персональная консультация</button>
+                </div><!-- end of footer__wrapper-->
+            </div><!-- end of footer__list-->  
+            <p class="footer__text">
+                © 1993–2021 Интернет-магазин «EKMI™» — меблі
+            </p>
+        </div><!-- end of container-->
+    </footer><!-- end of footer-->
+
+
+    <script src="./js/main.js" defer></script>
+</body>
+</html>

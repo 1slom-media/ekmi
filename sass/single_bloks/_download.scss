@@ -1,0 +1,116 @@
+.download{
+    padding-bottom: 160px;
+
+    &__list{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        max-width: 1170px;
+        width: 100%;
+        height: 130px;
+        border: 1px solid #FF9619;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item{
+        width: 389px;
+    }
+
+    .btn{
+        @include zero-btn();
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: capitalize;  
+        color: #343434;            
+    }
+
+    .button1{
+        padding-left: 50px;
+        
+        &::after{
+            content: "";
+            display: inline-block;
+            width: 33px;
+            height: 33px;
+            border-radius: 50%;
+            @include bg ("../images/strelka.png",auto,center center);
+            background-color:#FF9619 ;
+            margin-left: 25px;
+        }
+    }
+
+    .button2{
+        height: 130px;
+        padding: 0 80px;
+        border-left: 1px solid #FF9619;
+        border-right: 1px solid #FF9619;
+    }
+
+    .button3{
+        padding-right: 50px;
+    }
+}
+
+@media only screen and(max-width:376px) {
+    .download{
+
+        padding-bottom: 90px;
+
+        &__list{
+            position: relative;
+            max-width: 340px;
+            width: 100%;
+            height: 47px;
+            flex-wrap: wrap;
+        }
+    
+        &__item{
+            width: 167px;
+            height: 47px;
+        }
+    
+        .btn{
+            width: 167px;
+            height: 47px;
+            @include zero-btn();
+            font-size: 18px;
+            line-height: 21px;            
+        }
+    
+        .button1{
+            padding-left: 20px;
+            border-right: 1px solid #FF9619;
+            
+            &::after{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                @include bg ("../images/strelka.png",cover,center center);
+                background-color:#FF9619 ;
+                margin-left: 5px;
+            }
+        }
+    
+        .button2{
+            padding: 0 20px;
+            border: none;
+        }
+    
+        .button3{
+            position: absolute;
+            left: 80px;
+            bottom: -48px;
+            padding-right: 20px;
+            border-left: 1px solid #FF9619;
+            border-right: 1px solid #FF9619;
+            border-bottom: 1px solid #FF9619;
+        }
+
+    }
+    
+}

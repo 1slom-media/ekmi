@@ -1,6 +1,8 @@
 @import "./fonts";
 @import "./varibles";
+@import "./mixin";
 @import "./normalize";
 @import "./general";
 
-@import "./bloks/bloks";
+@import "./index_bloks/bloks";
+@import "./single_bloks/bloks";

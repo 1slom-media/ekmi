@@ -1,0 +1,109 @@
+.hero{
+    padding-top: 60px;
+    padding-bottom: 184px;
+
+    &__container{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    &__heading{
+        margin: 0;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%; 
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #343434;            
+    }
+
+    &__small-heading{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 15px;  
+        color: #343434;              
+    }
+
+    &__text{
+        max-width: 375px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: capitalize; 
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #343434;        
+    }
+
+    &__price {
+        display: block;
+        margin-bottom: 30px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FF9619;              
+    }
+
+    &__link{
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px 13px;
+        background-color: #FF9619;  
+        color: #FFFFFF;               
+    }
+}
+
+@media only screen and(max-width:376px){
+    .hero{
+        padding-top: 40px;
+        padding-bottom: 155px;
+
+        &__container{
+            flex-direction: column-reverse;
+        }
+
+        &__img{
+            width: 340px;
+            height: 224px;
+            margin-bottom: 10px;
+        }
+    
+        &__heading{
+            font-size: 20px;           
+        }
+    
+        &__small-heading{
+            font-size: 16px;
+            line-height: 19px;
+            margin-top: 15px;
+            margin-bottom: 8px;               
+        }
+    
+        &__text{
+            max-width: 340px;
+            font-size: 14px;
+            line-height: 21px;        
+        }
+    
+        &__link{
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+            padding: 13px 15px;              
+        }
+
+    }
+}

@@ -1,0 +1,175 @@
+.footer{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-color: #5b5b5b;
+    
+    &__container{
+        position: relative;
+    }
+    
+    
+    &__list{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        &::before{
+            position: absolute;
+            right: 135px;
+            top: -175px;
+            content: "";
+            display: inline-block;
+            width: 364px;
+            height: 96px;
+            @include bg("../images/ekmi.png",auto,right top)
+        }
+    }
+    
+    &__box{
+        max-width: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    &__link{
+        max-width: 133px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 20px;
+        line-height: 150%;
+        letter-spacing: 0.16em;
+        text-transform: capitalize;   
+        color: #FFFFFF;  
+
+        &:hover{
+            color: #FF9619;
+        }
+        
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    &__links-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__socials{
+        max-width: 70px;
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__tel{
+        display: inline-block;
+        margin-bottom: 30px;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;            
+    }
+    
+    &__button{
+        @include zero-btn ();
+        @include bg ("../images/rightstrelka.png",auto,right 20px center);
+        font-family: 'Open Sans';;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        padding: 8px 40px 8px 11px;
+        text-transform: uppercase; 
+        background-color: #FF9619;
+        color: #FFFFFF;            
+    }
+    
+    &__text{
+        margin: 0;
+        margin-top: 80px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: capitalize;
+        color: #FFFFFF;    
+    }
+}
+
+@media only screen and (max-width:376px){
+    .footer{
+        padding-top: 60px;
+        
+        &__list{
+            align-items: center;
+            flex-direction: column;
+            
+            &::before{
+                position: absolute;
+                right: 20px;
+                top: -120px;
+                content: "";
+                display: inline-block;
+                width: 223px;
+                height: 60px;
+                @include bg("../images/ekmi.png",cover,right top)
+            }
+        }
+        
+        &__box{
+            max-width: 300px;
+        }
+        
+        &__socials-box{
+            max-width: 345px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 60px;
+        }
+
+        &__socials{
+            margin-bottom: 0;
+        }
+
+        &__tel{
+            margin-bottom: 0;
+        }
+
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__button{
+            margin-top: 80px;
+            margin-bottom: 60px;
+            order: -1;
+        }
+
+
+        &__logo-link{
+            order: 4;
+        }
+        
+        &__link{
+            margin-bottom: 25px;
+        }
+        
+        &__text{
+            font-size: 10px;
+            line-height: 150%;           
+            margin-top: 35px;
+        }
+    }
+    
+}
